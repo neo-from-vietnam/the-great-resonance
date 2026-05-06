@@ -33,7 +33,13 @@
   }
 
   *{box-sizing:border-box;margin:0;padding:0}
-  html,body{background:var(--bg);color:var(--ink);font-family:'Courier New',monospace;min-height:100vh;overflow-x:hidden}
+  html,body{background:var(--bg);color:var(--ink);font-family:'Techfont','Courier New',monospace;min-height:100vh;overflow-x:hidden}
+
+  h1,h2,h3,h4,h5,h6,
+  .main-title,.title-block,.section-header,.sec-title,
+  .brand-name,.proposal-title,.cta-headline,.plat-name,.about-intro{
+    font-family:'CoralinaDemo','Georgia','Times New Roman',serif;
+  }
 
   /* dot grid */
   body::before{
@@ -76,7 +82,7 @@
   .title-block{text-align:center}
   .eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
   .main-title{
-    font-family:'Georgia','Times New Roman',serif;
+    font-family:'CoralinaDemo','Georgia','Times New Roman',serif;
     font-weight:400;font-size:clamp(52px,7vw,102px);line-height:1.04;letter-spacing:-.015em;
     background:linear-gradient(112deg,var(--neo-blue) 0%,#7420d6 24%,var(--neo-red) 48%,var(--neo-coral) 68%,#ffd4b0 86%,#fff 100%);
     -webkit-background-clip:text;background-clip:text;color:transparent;
@@ -160,7 +166,7 @@
   }
   .about-body{padding:36px 44px}
   .about-intro{
-    font-family:'Georgia','Times New Roman',serif;
+    font-family:'CoralinaDemo','Georgia','Times New Roman',serif;
     font-size:clamp(22px,2.6vw,32px);font-weight:400;line-height:1.35;
     color:var(--ink);margin-bottom:36px;
     border-left:3px solid var(--neo-red);padding-left:20px;
@@ -193,7 +199,7 @@
   .plat-accent.red{background:var(--neo-red)}
   .plat-accent.coral{background:var(--neo-coral)}
   .plat-name{
-    font-family:'Georgia','Times New Roman',serif;
+    font-family:'CoralinaDemo','Georgia','Times New Roman',serif;
     font-size:clamp(18px,2vw,24px);font-weight:400;line-height:1.2;
     color:var(--ink);margin-bottom:10px;
   }
@@ -224,7 +230,7 @@
   .cta-text{position:relative}
   .cta-eyebrow{font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
   .cta-headline{
-    font-family:'Georgia','Times New Roman',serif;
+    font-family:'CoralinaDemo','Georgia','Times New Roman',serif;
     font-size:clamp(24px,3vw,40px);font-weight:400;line-height:1.2;color:var(--ink);
     margin-bottom:14px;
   }
